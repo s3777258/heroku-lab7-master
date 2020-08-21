@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 #Only for FLASK
 import os
-n=0
+n=100
 app = Flask(__name__)
 #Main page
 @app.route('/')
